@@ -26,6 +26,7 @@ try {
 
 
 if ($_POST and $_GET['a']=="add"){
+	if($_POST['name'] == '' or $_POST['birthdate'] == '' or $_POST['email'] == '' or $_POST['children'] == ''){exit;}
 	$data = $_POST;
 	$sql = "INSERT INTO eggplant_users (name, birthdate, email, children) VALUES (:name, :birthdate, :email, :children)";
 	$stmt= $pdo->prepare($sql);
