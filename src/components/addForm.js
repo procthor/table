@@ -24,6 +24,13 @@ class AddForm extends Component {
     }
     onFormSubmit(event) {
         event.preventDefault();
+        console.log(event.target.name.value);
+        if(
+            event.target.name.value === '' || 
+            event.target.birthdate.value === '' ||  
+            event.target.email.value === '' || 
+            event.target.children.value === ''  
+        ) return true;
         const data = new FormData(event.target);
         this.props.addUser(data);
         this.setState({
