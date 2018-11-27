@@ -1,0 +1,53 @@
+.App{
+  width: 50%;
+  margin:20px 25%;
+}
+input {
+	width: 20%;
+	padding: 8px;
+	margin: 8px;
+	float: left;
+}
+button {
+	width: 200px;
+	margin: 10px auto;
+	display: block;
+	padding: 10px;
+}
+.thedisplay {
+	padding: 20px;
+	position: absolute;
+	top: 75px;
+	right: 50px;
+	background-color: #149f50;
+}
+table{
+  width:100%;
+}
+
+.term{
+  float:none;
+  margin: 10px auto;
+	display: block;
+	padding: 10px;
+}
+th {
+	background-color: #dae9e9;
+}
+td{
+  text-align:center
+}
+.pagination {
+  display:block;
+  Margin:0 auto;
+  text-align:center
+}
+.pagination div {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 10px;
+	display: inline;
+}
+.pagination div.act {
+	background-color:grey;
+}
