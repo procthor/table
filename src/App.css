@@ -32,7 +32,7 @@ table{
 	padding: 10px;
 }
 th {
-	background-color: #dae9e9;
+	background-color: #dae9e9;cursor:pointer;
 }
 td{
   text-align:center
